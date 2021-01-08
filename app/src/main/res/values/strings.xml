@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">movies-list-app</string>
+    <string name="splash_text">Wellcome to movies</string>
+    <string name="loading_fail_msg">Can not loading the app. please try again latter</string>
+    <string name = "release_year">Release year: </string>
+    <string name="connection_fail">Connection Problem!!</string>
+    <string name="movie_info">Movie info:</string>
+    <string name="rating">Rating: </string>
+    <string name="genre">Genre: </string>
+    <string name="movie">movie</string>
 </resources>
