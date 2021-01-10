@@ -64,6 +64,6 @@ class MovieDetailsFragment : Fragment() {
         Glide.with(binding.root)
             .load(movie.image)
             .into(binding.movieImage)
-        binding.movieGenre.text = movie.genre.toString()
+        binding.movieGenre.text = movie.genre?.joinToString()
     }
 }

@@ -4,10 +4,9 @@ import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "movies", indices = arrayOf(
-    Index(value = ["title"],
-    unique = true)
-))
+@Entity(tableName = "movies", indices = [Index(value = ["title"],
+    unique = true)]
+)
 data class Movie(
     @PrimaryKey(autoGenerate = true)
     val id : Int,

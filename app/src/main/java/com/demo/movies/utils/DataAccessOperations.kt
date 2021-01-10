@@ -11,8 +11,6 @@ private const val TAG = "DataAccessOperations"
 
 class DataAccessOperations {
 
-
-
     companion object {
         fun <T, A> getAndSaveDataOperation(
             dbQuery: () -> LiveData<T>,

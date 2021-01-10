@@ -43,7 +43,7 @@ class MoviesFragment : Fragment(), MoviesAdapter.MovieItemClickListener {
 
     private fun setupRecyclerView() {
         adapter = MoviesAdapter(this)
-        binding.moviesRv.layoutManager = LinearLayoutManager(requireContext())
+        //binding.moviesRv.layoutManager = LinearLayoutManager(requireContext())
         binding.moviesRv.adapter = adapter
     }
 
